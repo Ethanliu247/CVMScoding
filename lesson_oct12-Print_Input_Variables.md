@@ -1,3 +1,23 @@
+# lesson 1 Notes Oct.12
+
+## Variables
+> Variables are used to store informations of __a certain type__
+
+There are 2 main types of variables that you need to know about right now.
+#### Strings
+
+Strings store text.
+```python
+myString = "this is a string"
+myString2 = 'Strings can go in either single or double quotes.'
+myString + myString2 # results in "this is a stringStrings can go in either single or double quotes."
+```
+To let Python know that what you are typing is a string and not something for it to interpret, you have to enclose your strings in one of the aforementioned quotes.
+
+__Note__: The `#` in the previous example is a *comment*. Comments are basically telling Python "ignore the rest of this line", and are useful for making notes to yourself in your code.
+
+#### Numbers
+
 Numbers in Python, are, well, real numbers.
 You *don't* put quotes around the number, or it's a string.
 ```python
